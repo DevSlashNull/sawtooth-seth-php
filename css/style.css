@@ -1,0 +1,65 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ body {
+    background: no-repeat url("/images/bg.png");
+    color: white;
+}
+
+nav {
+    height: 90px !important;
+    line-height: 90px !important;
+    background-color: #171616b8 !important;
+
+}
+
+input {
+    color: white;
+    margin: 1em 0 1em 0 !important;
+    font-size: 25px !important;
+    background-color: #afa9a91f !important;
+    height: 40px;
+}
+
+.input-title {
+
+    padding: 1em 2em;
+    background: #941d227a;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.nav-wrapper {
+    
+}
+
+.btn {
+    background-color: #3218a7 !important
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+nav .brand-logo img {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 0.85em 0;
+}
+
+#wrap {
+    width: 80%;
+    margin: 2em auto;
+}
+

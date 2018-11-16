@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1">
+
+
+	     <!--Import Google Icon Font-->
+	      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	      <!--Import materialize.css-->
+	      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	      <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
+	      
+
+	      <!--Let browser know website is optimized for mobile-->
+	      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+
+		<title>SETH Portal</title>
+
+		<script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.js"></script>
+
+	</head>
+
+		<nav>
+    		<div class="nav-wrapper ">
+      			<a href="#" class="brand-logo">
+      				<img src="images/blockhack2.png">
+      			</a>
+
+
+      			<ul id="nav-mobile" class="right hide-on-med-and-down">
+
+      				<li>  <a class="waves-effect waves-light btn" onclick="show_deployContract()">Deploy Contract</a>
+
+          			</li>
+
+          			<li>
+          				<a class="waves-effect waves-light btn" onclick="show_contractFunctions()">Contract Functions</a>
+          			</li>
+
+          			<li>  
+          				<a class="waves-effect waves-light btn" onclick="show_txnReceipts()">Transaction Receipts</a>
+          			</li>
+
+                <li>  
+                  <a class="waves-effect waves-light btn" onclick="show_getBlockInfo()">Get Block Info</a>
+                </li>
+         
+      			</ul>
+    		</div>
+  		</nav>
+
+		<body>
+			<div id="master">
+   				<div id="wrap">
+       				<div id="d_content">
+					</div>
+   				</div>
+   			</div>
+
+		</body>
+
+		<script type="text/javascript" src="includes/scripts.js"></script>
+	</html>
